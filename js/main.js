@@ -7,7 +7,7 @@ $(function(){
     var resetBtn = document.getElementById('resetBtn');
 
     button.addEventListener('click', checkingAnswer);
-    resetBtn.addEventListener('click', reset);
+    resetBtn.addEventListener('click', resetForm);
 
     var rightAnswer = JSON.parse(localStorage.getItem('rightAnswer'));
     var totalAnswer = 5;

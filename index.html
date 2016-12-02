@@ -39,14 +39,14 @@
                             <%for(var val in data[i].answers){%>
                                 <p class="question_checkbox_box">
                                     <label class="question_checkbox_label">
-                                    <input id="first_checkbox" class="question_checkbox" name="q<%=i+1%>" type="radio" value="<%= val%>" /><%= data[i].answers[val]%>
+                                    <input id="first_checkbox" class="question_checkbox" name="q<%=i+1%>" type="radio" value="<%= val%>"<%= data[i].answers[val]%>
                                 </label>
                                 </p>
                                 <% } %>
                                     <% } %>
                     </section>
                     <section class="row btn_container">
-                        <button type="button" class="btn btn-primary btn-lg" id="button" data-toggle="modal" data-target="#myModal">Проверить мои результаты</button>
+                        <button type="button" class="btn btn-primary btn-lg center-block" id="button" data-toggle="modal" data-target="#myModal">Проверить мои результаты</button>
                     </section>
             </form>
             </section>
